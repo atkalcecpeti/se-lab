@@ -14,6 +14,8 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Kiszervezve, hogy ne minden függvény lefutásánál legyen
+  //újra példányosítva.
   Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
